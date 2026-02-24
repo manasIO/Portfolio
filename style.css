@@ -346,3 +346,9 @@ footer {
 .container {
   padding: 2px 16px;
 }
+
+.date-range {
+  color: #777;
+  font-weight: normal;
+  font-size: 0.9rem;
+}

@@ -347,8 +347,43 @@ footer {
   padding: 2px 16px;
 }
 
+.experience-card {
+  padding: 20px;
+  border-radius: 12px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.experience-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.company-logo {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+  border-radius: 6px;
+  background: white;
+  padding: 4px;
+}
+
+.card-content {
+  margin-top: 16px;
+}
+
 .date-range {
   color: #777;
-  font-weight: normal;
   font-size: 0.9rem;
+  font-weight: normal;
+}
+
+#Whatido {
+  max-width: 1100px;
+  margin: 0 auto;
 }

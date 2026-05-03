@@ -1,375 +1,230 @@
-body{
+body {
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     margin: 0;
-  }
-.body_section{
-    padding : 3% 5% 1%;
 }
 
-  a{
+.body_section {
+    padding: 3% 5% 1%;
+}
+
+a {
     text-decoration: none;
-  }
-
-  @font-face{
-    font-family: "Lovely Home";
-    src:local('Lovely Home'), 
-    url("Image/LovelyHome-9aBZ.ttf") format('truetype');
-
-  }
-
-.brand-name ,.navbar-light .navbar-brand{
-      /* font-family: "Brush Script MT"; */
-      /* margin-bottom: 3px; */
-      font-family: "Lovely Home";
-      font-size: 50px;
-      font-weight: bold;
-      color: black;
-  }
-
-  @media only screen and (max-width : 764px){
-      .brand-name ,.navbar-light .navbar-brand{
-      font-family: "Lovely Home";
-      font-size: 40px;
-      font-weight: bold;
-      color: #351458;
-  }
 }
 
+@font-face {
+    font-family: "Lovely Home";
+    src: local('Lovely Home'),
+        url("Image/LovelyHome-9aBZ.ttf") format('truetype');
+}
 
-  .headerachor {
+.brand-name, .navbar-light .navbar-brand {
+    font-family: "Lovely Home";
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+}
+
+@media only screen and (max-width: 764px) {
+    .brand-name, .navbar-light .navbar-brand {
+        font-family: "Lovely Home";
+        font-size: 40px;
+        font-weight: bold;
+        color: #351458;
+    }
+}
+
+.headerachor {
     color: black;
     margin: 0 7px 0 7px;
     font-size: 25px;
-  }
+}
 
-  .headerachor:hover {
+.headerachor:hover {
     background-color: transparent;
     text-decoration: underline;
-  }
+}
 
-  .Section1{
+.Section1 {
     padding: 4% 0 3%;
-  }
+}
 
-.skill-img{
-    width:90%;
+.skill-img {
+    width: 90%;
     height: 90%;
 }
 
-.Skill-heading{
+.Skill-heading {
     font-family: "Montserrat";
     font-size: 40px;
     font-weight: 300;
+    margin-bottom: 8px;
+}
+
+.skill-category-label {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: #351458;
+    margin: 20px 0 2px 6px;
 }
 
 #SkillBox {
     width: 95%;
     height: auto;
-    margin: 40px auto;
+    margin: 20px auto;
     background-color: #fff;
+    padding: 10px;
+    border-radius: 50px;
+}
 
-    /* border: 1px solid #cdcdcd; */
-    padding: 10px;
-    border-radius:50px;
-    -o-border-radius:20px;
-    -webkit-border-radius:20px;
-    -ms-border-radius:20px;
-    -moz-border-radius:20px;
-}
-#SkillBox img {
-    width: 20%;
-    height: 10%;
-    margin: auto 35%;
-    padding: 10px;
-}
 .SkillBar {
     width: 90%;
-    height: 50px;
+    height: 40px;
     position: relative;
-    border-radius:20px;
-    /* background: rgba(17, 17, 17, .3); */
+    border-radius: 20px;
     background: #c5c2ff;
-    margin: 20px auto;
+    margin: 10px auto;
 }
 
-
-#Skill-HTML {
-    width: 90%;
-    border-radius:20px;
-    animation: Animate-HTML 4s;
-    -webkit-animation: Animate-HTML 4s;
-    -moz-animation: Animate-HTML 4s;
-    -o-animation: Animate-HTML 4s;
-    height: 50px;
-    position: absolute;
-    background-color:#6c63ff;
-}
-@keyframes Animate-HTML {
-    from {
-    width: 10px;
-}
-to {
-    width: 90%}
-}@-webkit-keyframes Animate-HTML {
-    from {
-    width: 10px;
-}
-to {
-    width: 90%}
-}@-moz-keyframes Animate-HTML {
-    from {
-    width: 10px;
-}
-to {
-    width: 90%}
-}@-o-keyframes Animate-HTML {
-    from {
-    width: 10px;
-}
-to {
-    width: 90%}
-}#Skill-CSS {
-    animation: Animate-CSS 5s;
-    -webkit-animation: Animate-CSS 5s;
-    -moz-animation: Animate-CSS 5s;
-    -o-animation: Animate-CSS 5s;
-    border-radius:20px;
-    width: 70%;
-    height: 50px;
-    position: absolute;
-    background-color: #6c63ff;
-}
-@keyframes Animate-CSS {
-    from {
-    width: 10px;
-}
-to {
-    width: 70%}
-}@-webkit-keyframes Animate-CSS {
-    from {
-    width: 10px;
-}
-to {
-    width: 70%}
-}@-moz-keyframes Animate-CSS {
-    from {
-    width: 10px;
-}
-to {
-    width: 70%}
-}@-o-keyframes Animate-CSS {
-    from {
-    width: 10px;
-}
-to {
-    width: 70%}
-}#Skill-Python {
-    border-radius:20px;
-    animation: Animate-Python 5s;
-    -webkit-animation: Animate-Python 5s;
-    -moz-animation: Animate-Python 5s;
-    -o-animation: Animate-Python 5s;
-    width: 80%;
-    height: 50px;
-    position: absolute;
-    background-color: #6c63ff;
-}
-@keyframes Animate-Python {
-    from {
-    width: 10px;
-}
-to {
-    width: 70%}
-}@-webkit-keyframes Animate-Python {
-    from {
-    width: 10px;
-}
-to {
-    width: 80%}
-}@-moz-keyframes Animate-Python {
-    from {
-    width: 10px;
-}
-to {
-    width: 80%}
-}@-o-keyframes Animate-Python {
-    from {
-    width: 10px;
-}
-to {
-    width: 80%}
-}#Skill-JS {
-    animation: Animate-JS 4s;
-    -webkit-animation: Animate-JS 4s;
-    -moz-animation: Animate-JS 4s;
-    -o-animation: Animate-JS 4s;
-    border-radius:20px;
-    width: 65%;
-    height: 50px;
-    position: absolute;
-    background-color: #6c63ff;
-}
-@keyframes Animate-JS {
-    from {
-    width: 10px;
-}
-to {
-    width: 65%}
-}@-webkit-keyframes Animate-JS {
-    from {
-    width: 10px;
-}
-to {
-    width: 65%}
-}@-moz-keyframes Animate-JS {
-    from {
-    width: 10px;
-}
-to {
-    width: 65%}
-}@-o-keyframes Animate-JS {
-    from {
-    width: 10px;
-}
-to {
-    width: 65%}
-}
-
-#Skill-C {
-    animation: Animate-C 4s;
-    -webkit-animation: Animate-C 4s;
-    -moz-animation: Animate-C 4s;
-    -o-animation: Animate-C 4s;
-    border-radius:20px;
-    width: 80%;
-    height: 50px;
-    position: absolute;
-    background-color: #6c63ff;
-}
-@keyframes Animate-C {
-    from {
-    width: 10px;
-}
-to {
-    width: 80%}
-}@-webkit-keyframes Animate-C {
-    from {
-    width: 10px;
-}
-to {
-    width: 80%}
-}@-moz-keyframes Animate-C {
-    from {
-    width: 10px;
-}
-to {
-    width: 80%}
-}@-o-keyframes Animate-C {
-    from {
-    width: 10px;
-}
-to {
-    width: 80%}
-}#Skill-Cplus {
-    animation: Animate-Cplus4s;
-    -webkit-animation: Animate-Cplus 4s;
-    -moz-animation: Animate-Cplus 4s;
-    -o-animation: Animate-Cplus 4s;
-    border-radius:20px;
+/* Languages */
+#Skill-Python {
+    border-radius: 20px;
+    animation: grow-85 4s forwards;
     width: 85%;
-    height: 50px;
+    height: 40px;
     position: absolute;
     background-color: #6c63ff;
 }
-@keyframes Animate-Cplus {
-    from {
-    width: 10px;
+#Skill-Cplus {
+    border-radius: 20px;
+    animation: grow-90 4s forwards;
+    width: 90%;
+    height: 40px;
+    position: absolute;
+    background-color: #6c63ff;
 }
-to {
-    width: 85%}
-}@-webkit-keyframes Animate-Cplus {
-    from {
-    width: 10px;
-}
-to {
-    width: 85%}
-}@-moz-keyframes Animate-Cplus {
-    from {
-    width: 10px;
-}
-to {
-    width: 85%}
-}@-o-keyframes Animate-Cplus {
-    from {
-    width: 10px;
-}
-to {
-    width: 85%}
-}#Skill-SQL {
-    animation: Animate-SQL 4s;
-    -webkit-animation: Animate-SQL 4s;
-    -moz-animation: Animate-SQL 4s;
-    -o-animation: Animate-SQL 4s;
-    border-radius:20px;
+#Skill-CSharp {
+    border-radius: 20px;
+    animation: grow-80 4s forwards;
     width: 80%;
-    height: 50px;
+    height: 40px;
     position: absolute;
     background-color: #6c63ff;
 }
-@keyframes Animate-SQL {
-    from {
-    width: 10px;
+#Skill-Java {
+    border-radius: 20px;
+    animation: grow-75 4s forwards;
+    width: 75%;
+    height: 40px;
+    position: absolute;
+    background-color: #6c63ff;
 }
-to {
-    width: 80%}
-}@-webkit-keyframes Animate-SQL {
-    from {
-    width: 10px;
+
+/* AI / ML */
+#Skill-LangChain {
+    border-radius: 20px;
+    animation: grow-80 4s forwards;
+    width: 80%;
+    height: 40px;
+    position: absolute;
+    background-color: #6c63ff;
 }
-to {
-    width: 80%}
-}@-moz-keyframes Animate-SQL {
-    from {
-    width: 10px;
+#Skill-PyTorch {
+    border-radius: 20px;
+    animation: grow-75 4s forwards;
+    width: 75%;
+    height: 40px;
+    position: absolute;
+    background-color: #6c63ff;
 }
-to {
-    width: 80%}
-}@-o-keyframes Animate-SQL {
-    from {
-    width: 10px;
+#Skill-TF {
+    border-radius: 20px;
+    animation: grow-75 4s forwards;
+    width: 75%;
+    height: 40px;
+    position: absolute;
+    background-color: #6c63ff;
 }
-to {
-    width: 80%}
+
+/* DevOps */
+#Skill-Jenkins {
+    border-radius: 20px;
+    animation: grow-85 4s forwards;
+    width: 85%;
+    height: 40px;
+    position: absolute;
+    background-color: #6c63ff;
 }
+#Skill-Git {
+    border-radius: 20px;
+    animation: grow-90 4s forwards;
+    width: 90%;
+    height: 40px;
+    position: absolute;
+    background-color: #6c63ff;
+}
+
+/* Cloud & Web */
+#Skill-AWS {
+    border-radius: 20px;
+    animation: grow-70 4s forwards;
+    width: 70%;
+    height: 40px;
+    position: absolute;
+    background-color: #6c63ff;
+}
+#Skill-Azure {
+    border-radius: 20px;
+    animation: grow-70 4s forwards;
+    width: 70%;
+    height: 40px;
+    position: absolute;
+    background-color: #6c63ff;
+}
+#Skill-React {
+    border-radius: 20px;
+    animation: grow-75 4s forwards;
+    width: 75%;
+    height: 40px;
+    position: absolute;
+    background-color: #6c63ff;
+}
+
+@keyframes grow-90 { from { width: 10px; } to { width: 90%; } }
+@keyframes grow-85 { from { width: 10px; } to { width: 85%; } }
+@keyframes grow-80 { from { width: 10px; } to { width: 80%; } }
+@keyframes grow-75 { from { width: 10px; } to { width: 75%; } }
+@keyframes grow-70 { from { width: 10px; } to { width: 70%; } }
+
 .Skill-Area {
     z-index: 1;
     float: left;
-    /* position: absolute; */
     margin-top: 8px;
     margin-left: 15px;
     text-shadow: none;
     color: #fff;
 }
 
+h3 {
+    color: white;
+    padding-left: 20px;
+    padding-top: 4px;
+    font-size: 18px;
+}
 
-@media only screen and (max-width : 950px){
-
-    body,html{
-      text-align: center;
-      font-size: 16px;
-      line-height: normal;
+@media only screen and (max-width: 950px) {
+    body, html {
+        text-align: center;
+        font-size: 16px;
+        line-height: normal;
     }
 }
 
- footer{
+footer {
     padding-top: 2%;
     color: #868e96;
     text-align: center;
-  }
-
-  h3{
-      color: white;
-      padding-left: 20px;
-      padding-top: 6px;
-  }
+}

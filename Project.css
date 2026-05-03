@@ -122,8 +122,37 @@ body{
   .card {
     height: 100%;
   }
-  
+
   .card {
     min-height: 250px;
+  }
+
+  .badge-tag {
+    display: inline-block;
+    background: #f0ebff;
+    color: #351458;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 4px 10px;
+    border-radius: 20px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.3px;
+  }
+
+  .featured-project {
+    border-left: 4px solid #351458;
+  }
+
+  .project-text ul {
+    padding-left: 18px;
+  }
+
+  .project-text ul li {
+    display: list-item;
+    color: #868e96;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 6px;
+    line-height: 1.6;
   }
   
